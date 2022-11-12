@@ -1,0 +1,70 @@
+=============== Nov 11, 2022 (IST) ===============
+00:45:40.585317 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:45:40.600097 db@open opening
+00:45:40.600906 version@stat F·[] S·0B[] Sc·[]
+00:45:40.606724 db@janitor F·2 G·0
+00:45:40.606770 db@open done T·6.606587ms
+00:45:40.646466 db@close closing
+00:45:40.646510 db@close done T·43.523µs
+=============== Nov 11, 2022 (IST) ===============
+00:45:52.934693 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:45:52.934883 version@stat F·[] S·0B[] Sc·[]
+00:45:52.934930 db@open opening
+00:45:52.935035 journal@recovery F·1
+00:45:52.938530 journal@recovery recovering @1
+00:45:52.949260 memdb@flush created L0@2 N·11 S·590B "H\xab\x94..U`\f,v4":"r\x00\x00..U`\f,v6"
+00:45:52.952964 version@stat F·[1] S·590B[590B] Sc·[0.25]
+00:45:52.965545 db@janitor F·3 G·0
+00:45:52.965621 db@open done T·30.650955ms
+=============== Nov 11, 2022 (IST) ===============
+11:40:40.261451 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:40:40.261564 version@stat F·[1] S·590B[590B] Sc·[0.25]
+11:40:40.261583 db@open opening
+11:40:40.261613 journal@recovery F·1
+11:40:40.263293 journal@recovery recovering @3
+11:40:40.267889 memdb@flush created L0@5 N·709 S·33KiB "Dat..ion,v14":"\xe8l\a..\xa4!\xe6,v117"
+11:40:40.269502 version@stat F·[2] S·34KiB[34KiB] Sc·[0.50]
+11:40:40.281123 db@janitor F·4 G·0
+11:40:40.281156 db@open done T·19.563817ms
+11:40:42.407372 db@close closing
+11:40:42.407557 db@close done T·177.537µs
+=============== Nov 11, 2022 (IST) ===============
+11:41:05.425917 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:41:05.426209 version@stat F·[2] S·34KiB[34KiB] Sc·[0.50]
+11:41:05.426251 db@open opening
+11:41:05.426331 journal@recovery F·1
+11:41:05.429539 journal@recovery recovering @6
+11:41:05.441248 memdb@flush created L0@8 N·4 S·409B "Las..ock,v724":"unc..own,v726"
+11:41:05.444673 version@stat F·[3] S·34KiB[34KiB] Sc·[0.75]
+11:41:05.457930 db@janitor F·5 G·0
+11:41:05.458012 db@open done T·31.722381ms
+=============== Nov 11, 2022 (IST) ===============
+13:31:01.234325 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:31:01.234835 version@stat F·[3] S·34KiB[34KiB] Sc·[0.75]
+13:31:01.234857 db@open opening
+13:31:01.234900 journal@recovery F·1
+13:31:01.236966 journal@recovery recovering @9
+13:31:01.241342 memdb@flush created L0@11 N·784 S·40KiB "H\x008..+\r\xf4,v1366":"unc..own,v729"
+13:31:01.243111 version@stat F·[4] S·75KiB[75KiB] Sc·[1.00]
+13:31:01.254945 db@janitor F·6 G·0
+13:31:01.254973 db@open done T·20.103805ms
+13:31:01.255014 table@compaction L0·4 -> L1·0 S·75KiB Q·1512
+13:31:01.260527 table@build created L1@14 N·553 S·32KiB "Dat..ion,v14":"\xe8l\a..\xa4!\xe6,v117"
+13:31:01.260575 version@stat F·[0 1] S·32KiB[0B 32KiB] Sc·[0.00 0.00]
+13:31:01.263446 table@compaction committed F-3 S-43KiB Ke·0 D·955 T·8.388146ms
+13:31:01.263717 table@remove removed @8
+13:31:01.263759 table@remove removed @5
+13:31:01.263795 table@remove removed @2
+13:33:49.434950 db@close closing
+13:33:49.435078 db@close done T·125.156µs
+=============== Nov 11, 2022 (IST) ===============
+13:44:32.336060 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+13:44:32.336415 version@stat F·[0 1] S·32KiB[0B 32KiB] Sc·[0.00 0.00]
+13:44:32.336451 db@open opening
+13:44:32.336510 journal@recovery F·1
+13:44:32.340525 journal@recovery recovering @12
+13:44:32.345010 memdb@flush created L0@15 N·791 S·45KiB "H\x008..+\r\xf4,v2153":"\xf0\x88\xd4..\bgN,v2302"
+13:44:32.347078 version@stat F·[1 1] S·77KiB[45KiB 32KiB] Sc·[0.25 0.00]
+13:44:32.361549 db@janitor F·5 G·1
+13:44:32.361570 db@janitor removing table-11
+13:44:32.361643 db@open done T·25.181318ms
